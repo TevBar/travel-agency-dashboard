@@ -87,6 +87,72 @@ export const groupTypes = ["Solo", "Couple", "Family", "Friends", "Business"];
 
 export const footers = ["Terms & Condition", "Privacy Policy"];
 
+export const allTrips = [
+  {
+    id: 1,
+    name: "Tropical Rewind",
+    imageUrls: ["/assets/images/sample1.jpg"],
+    itinerary: [{ location: "Thailand" }],
+    tags: ["Adventure", "Culture"],
+    travelStyle: "Solo",
+    estimatedPrice: "$1,000",
+  },
+  {
+    id: 2,
+    name: "French Reverie",
+    imageUrls: ["/assets/images/sample2.jpg"],
+    itinerary: [{ location: "Paris" }],
+    tags: ["Relaxation", "Culinary"],
+    travelStyle: "Family",
+    estimatedPrice: "$2,000",
+  },
+  {
+    id: 3,
+    name: "Zen Break",
+    imageUrls: ["/assets/images/sample3.jpg"],
+    itinerary: [{ location: "Japan" }],
+    tags: ["Shopping", "Luxury"],
+    travelStyle: "Couple",
+    estimatedPrice: "$3,000",
+  },
+  {
+    id: 4,
+    name: "Adventure in Westeros",
+    imageUrls: ["/assets/images/sample4.jpg"],
+    itinerary: [{ location: "Croatia" }],
+    tags: ["Historical", "Culture"],
+    travelStyle: "Friends",
+    estimatedPrice: "$4,000",
+  },
+  {
+    id: 5,
+    name: "Alpine Explorer",
+    imageUrls: ["/assets/images/card-img-1.png"],
+    itinerary: [{ location: "Switzerland" }],
+    tags: ["Nature", "Adventure"],
+    travelStyle: "Solo",
+    estimatedPrice: "$2,800",
+  },
+  {
+    id: 6,
+    name: "Tuscan Dreams",
+    imageUrls: ["/assets/images/card-img-2.png"],
+    itinerary: [{ location: "Italy" }],
+    tags: ["Culinary", "Relaxation"],
+    travelStyle: "Couple",
+    estimatedPrice: "$3,500",
+  },
+  {
+    id: 7,
+    name: "Northern Lights Quest",
+    imageUrls: ["/assets/images/card-img-3.png"],
+    itinerary: [{ location: "Iceland" }],
+    tags: ["Nature", "Photography"],
+    travelStyle: "Friends",
+    estimatedPrice: "$4,200",
+  },
+];
+
 export const selectItems = [
   "groupType",
   "travelStyle",

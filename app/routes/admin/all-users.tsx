@@ -1,11 +1,18 @@
-import React from 'react'
+import { Header } from '../../../components';
 
-const allUsers = () => {
+const AllUsers = () => {
+  const user = { name: 'Tevin Barrios' }
+  
   return (
-    <div>
-      User Table
-    </div>
+    <main className = 'dashboard wrapper'>
+      <Header 
+        title = "All Users"
+        description = "Manage and view all registered users in the system and see our current users in real time."
+      />
+
+      all user page contents
+    </main>
   )
 }
 
-export default allUsers
+export default AllUsers
